@@ -5,6 +5,7 @@ Q. Write code to run `index.js` with content console.log('Welcome to Nodejs') in
 Q. In above `index.js` file
 - require os module
 - write code to get `number of cpu's, free memory, uptime and version from os module`
+
 - write code to require only readFile and unlink method from fs module.
 
 Q. Create 2 files
