@@ -4,11 +4,11 @@ let server = http.createServer(handleRequests);
 
 function handleRequests(req, res) {
   console.log(req.method, req.url);
-  console.log(req.headers);
+
   res.writeHead(201, { 'Content-Type': `text/html` });
-  res.end('Welcome');
+  res.end('<h2>Welcome</h2>');
 }
 
 server.listen(4444, 'localhost', () => {
-  console.log(`Server hosted on 4444 port!`);
+  console.log(`Server listening on 4444 port!`);
 });
